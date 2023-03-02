@@ -16,20 +16,18 @@
 	border: 1px solid #dbdbdb;
 }
 
-.true {
+
+.status {
 	width: 15px;
 	height: 15px;
-
-	background-color: #08e600;
 	border-radius: 50%;
+}
+.true {
+	background-color: #08e600;
 }
 
 .false {
-	width: 15px;
-	height: 15px;
-	
 	background-color: #e60f00;
-	border-radius: 50%;
 }
 
 .avatar {}
