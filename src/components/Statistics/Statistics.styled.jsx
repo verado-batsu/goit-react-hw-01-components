@@ -1,8 +1,11 @@
-.statistics {
-	margin-bottom: 20px;
-}
+import styled from '@emotion/styled';
 
-.title {
+
+export const StatisticsCard = styled.section`
+	margin-bottom: 20px;
+`;
+
+export const StatisticsTitle = styled.h2`
 	display: flex;
 	justify-content: center;
 	padding: 10px 0;
@@ -10,23 +13,23 @@
 	font-weight: 500;
 	text-transform: uppercase;
 	color: #cecece;
-}
+`;
 
-.statList {
+export const StatList = styled.ul`
 	display: flex;
 	justify-content: center;
-}
+`;
 
-.item {
+export const StatItem = styled.li`
 	display: flex;
 	flex-direction: column;
 	padding: 10px 20px;
 	
 	color: rgb(231, 230, 230);
-}
+`;
 
-.label {
+export const StatLabel = styled.span`
 	margin-bottom: 5px;
-}
+`;
 
-.percentage {}
+export const StatPercentage = styled.span``;
