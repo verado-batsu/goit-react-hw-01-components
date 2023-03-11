@@ -6,7 +6,9 @@ import getRandomHexColor from 'utils/randomHexColor';
 function Statistics({ title, data }) {
 	return (
 		<StatisticsCard>
-			{title && <StatisticsTitle>{title}</StatisticsTitle>}
+			{title === true || title === undefined || title.trim() === '' ? 
+				null :
+				<StatisticsTitle>{title}</StatisticsTitle>}
 			
 			<StatList>
 				{data.map(({ id, label, percentage }) => {
